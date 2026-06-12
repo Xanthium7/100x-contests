@@ -131,18 +131,34 @@
 
 
 
-const colleges = [
-  {
-    name: "MITS",
-    departments: [
-      { name: "CSE", students: [{ name: "A", cgpa: 8.2 }, { name: "B", cgpa: 9.1 }] },
-      { name: "ECE", students: [{ name: "C", cgpa: 7.5 }] }
-    ]
-  },
-  {
-    name: "NIT",
-    departments: [
-      { name: "ME", students: [{ name: "D", cgpa: 8.8 }, { name: "E", cgpa: 6.9 }] }
-    ]
-  }
-];
+// const colleges = [
+//   {
+//     name: "MITS",
+//     departments: [
+//       { name: "CSE", students: [{ name: "A", cgpa: 8.2 }, { name: "B", cgpa: 9.1 }] },
+//       { name: "ECE", students: [{ name: "C", cgpa: 7.5 }] }
+//     ]
+//   },
+//   {
+//     name: "NIT",
+//     departments: [
+//       { name: "ME", students: [{ name: "D", cgpa: 8.8 }, { name: "E", cgpa: 6.9 }] }
+//     ]
+//   }
+// ];
+
+
+// ans = []
+// colleges.forEach((college) => {
+//     cname = college.name
+//     college.departments.forEach((department) => {
+//         dept = department.name
+//         department.students.forEach((student) => {
+//             sname = student.name
+//             cgpa = student.cgpa
+//             ans.push({name: sname, cgpa: cgpa, college: cname, dept: dept})
+//         })
+//     })
+// })
+
+// console.log(ans)

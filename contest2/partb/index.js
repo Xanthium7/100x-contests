@@ -24,9 +24,10 @@
 
 // const fs = require('fs')
 
-// const fsPromise = (file) => {
+// const promisify = (fn) => {
+//    return (...args) => {
 //     return new Promise((res, rej) => {
-//         fs.readFile(file, 'utf-8', (err, data) => {
+//         fn(...args, (err, data) => {
 //             if(err){
 //                 rej(err.message)
 //             }else{
@@ -34,14 +35,14 @@
 //             }
 //         })
 //     })
+//    }
 // }
 
 
 
-// fsPromise("hi.txt").then((data) => {
-//     console.log(data)
-// })
+// const promsifiedFunc = promisify(fs.readFile)
 
+// promsifiedFunc("hi.txt", "utf-8").then(console.log)
 
 // -------------------------------------------------
 
